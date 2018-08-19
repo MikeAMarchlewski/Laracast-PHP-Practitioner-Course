@@ -1,5 +1,8 @@
 <?php
 
-echo 'Hello World';
+$greeting = "Salutations, ";
+$name = 'Mike Marchlewski';
+
+echo $greeting . $name;
 
 ?>
