@@ -7,6 +7,16 @@ $names = [
     'Shelby'
 ];
 
+//HW Make array of 5 animals then list them on the page in view.
+
+$animals = [
+    'Dog',
+    'Cat',
+    'Penguin',
+    'Snake',
+    'Mouse'
+];
+
 //foreach ($names as $name) {
 //    echo $name . ', ';
 //}

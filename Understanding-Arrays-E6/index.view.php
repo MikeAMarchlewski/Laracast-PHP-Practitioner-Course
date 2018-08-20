@@ -33,6 +33,13 @@
 
         <?php endforeach; ?>    
 
+        <!--HW Part-->
+        <?php 
+            foreach($animals as $animal){
+                echo "<li>$animal</li>";
+            }
+        ?>
+
         
     </ul>    
     
