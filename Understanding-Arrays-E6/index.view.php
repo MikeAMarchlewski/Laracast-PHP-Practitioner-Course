@@ -6,24 +6,35 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>
 
-header {
-    background: #e3e3e3;
-    padding: 2em;
-    text-align: center;
-}
 </style>
     
 </head>
 <body>
 
-    <header>
+    <ul>
 
-        <h1>
+        <!--Option1-->
+
+        <?php
+
             
-        </h1>
-    </header>
+            foreach($names as $name) {
+                echo "<li>$name</li>";
+            }
+
+        ?>
+        
+        <!--Option2 or Alt way-->
+        
+        <?php foreach ($names as $name) : ?>
+    
+            <li><?= $name; ?></li>
+
+        <?php endforeach; ?>    
+
+        
+    </ul>    
     
 </body>
 </html>
