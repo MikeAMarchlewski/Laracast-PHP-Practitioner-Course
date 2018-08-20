@@ -7,7 +7,15 @@
 </head>
 <body>
 
-    <h1></h1>
+    <ul>
+
+        <?php foreach ($person as $key => $value) : ?>
+
+            <li><strong><?= $key; ?></strong> <?= $value?></li>
+
+        <?php endforeach; ?>
+
+    </ul>
     
 </body>
 </html>
