@@ -23,6 +23,18 @@ echo $person['age'];
 var_dump($person);
 //var_dump drops everything located within () example above is the entire array in ()
 
+//HW Associative Array = title, due, assigned_to, completed
+$task = [
+    'Title' => 'Homework',
+    'Due' => 'Today',
+    'Assigned_to' => 'Joe',
+    'Completed' => 'No'
+];
+
+var_dump($task);
+
+echo $task['Completed'];
+//End Homework Part. Easy
 die();
 //Doesn't show anything after, everything after the die function "dies"
 
